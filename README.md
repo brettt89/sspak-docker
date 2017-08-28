@@ -17,7 +17,7 @@ commands to be run using a container service.
 
 ```yml
   sspak:
-    image: brettt89/silverstripe-docker
+    image: brettt89/sspak
     links:
       - database:database
     volumes:
